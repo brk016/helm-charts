@@ -5,7 +5,7 @@ entries:
       category: Analytics
     apiVersion: v2
     appVersion: 7.4.2
-    created: "2021-02-19T14:55:35.294039-06:00"
+    created: "2021-02-19T16:47:56.837046-06:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -29,6 +29,38 @@ entries:
     - https://github.com/bitnami/bitnami-docker-grafana
     - https://grafana.com/
     urls:
-    - https://brk016.github.io/helm-charts/grafana-5.2.3.tgz
+    - grafana-5.2.3.tgz
     version: 5.2.3
-generated: "2021-02-19T14:55:35.291392-06:00"
+  redis:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 6.0.10
+    created: "2021-02-19T16:47:56.842079-06:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Open source, advanced key-value store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets and sorted sets.
+    digest: b5da15d7ff50cc0a9788270f56f12cc45adabf42f703037497e22987369b27b9
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    - http://redis.io/
+    urls:
+    - redis-12.7.4.tgz
+    version: 12.7.4
+generated: "2021-02-19T16:47:56.833691-06:00"
