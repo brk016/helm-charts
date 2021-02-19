@@ -5,7 +5,7 @@ entries:
       category: Analytics
     apiVersion: v2
     appVersion: 7.4.2
-    created: "2021-02-19T14:34:09.369391-06:00"
+    created: "2021-02-19T14:55:35.294039-06:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://brk016.github.io/helm-charts/grafana-5.2.3.tgz
     version: 5.2.3
-generated: "2021-02-19T14:34:09.36659-06:00"
+generated: "2021-02-19T14:55:35.291392-06:00"
